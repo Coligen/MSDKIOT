@@ -1,0 +1,1 @@
+../../../../../MSDKIOT/Classes/MSDKDeviceCommandModel.h

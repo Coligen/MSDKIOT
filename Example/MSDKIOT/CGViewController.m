@@ -6,17 +6,18 @@
 //  Copyright (c) TODAYS_YEAR PROJECT_OWNER. All rights reserved.
 //
 
-#import "CPDViewController.h"
+#import "CGViewController.h"
 
-@interface CPDViewController ()
+@interface CGViewController ()
 
 @end
 
-@implementation CPDViewController
+@implementation CGViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -27,4 +28,4 @@
 }
 
 @end
-Ú
+

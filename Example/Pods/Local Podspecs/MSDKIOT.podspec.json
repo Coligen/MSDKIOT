@@ -1,0 +1,26 @@
+{
+  "name": "MSDKIOT",
+  "version": "0.3.7",
+  "summary": "A short description of MSDKIOT.",
+  "description": "Coligen IOT SDK.",
+  "homepage": "https://github.com/Coligen",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhoubing@coligen.com": "zhoubing@coligen.com"
+  },
+  "source": {
+    "git": "https://github.com/Coligen/MSDKIOT.git",
+    "tag": "0.3.7"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MSDKIOT/Classes/**/*",
+  "vendored_frameworks": "MSDKIOT/**/*.framework",
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 arm64"
+  }
+}

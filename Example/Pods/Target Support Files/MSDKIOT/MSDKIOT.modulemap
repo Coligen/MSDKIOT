@@ -1,0 +1,6 @@
+framework module MSDKIOT {
+  umbrella header "MSDKIOT-umbrella.h"
+
+  export *
+  module * { export * }
+}
