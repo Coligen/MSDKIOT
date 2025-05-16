@@ -16,7 +16,9 @@ typedef NS_ENUM(NSInteger, MSDKDeviceRecordType) {
 typedef NS_ENUM(NSInteger, MSDKCloudManagerErrorType) {
     MSDKCloudManagerErrorType_Ok,
     MSDKCloudManagerErrorType_NoFile,
-    MSDKCloudManagerErrorType_NetworkError
+    MSDKCloudManagerErrorType_NetworkError,
+    MSDKCloudManagerErrorType_NoPermitted,
+    MSDKCloudManagerErrorType_TooBig
 };
 
 NS_ASSUME_NONNULL_BEGIN
@@ -56,6 +58,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSInteger startTs;                 // 起始时间戳
 @property (nonatomic, assign) NSInteger endTs;                   // 结束时间戳
+@property (nonatomic, assign) NSInteger dayTs;                   // 当天的00:00:00的时间戳
 
 
 @end

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MSDKIOT'
-  s.version          = '0.3.7'
+  s.version          = '0.3.8'
   s.summary          = 'A short description of MSDKIOT.'
   
   s.description      = 'Coligen IOT SDK.'

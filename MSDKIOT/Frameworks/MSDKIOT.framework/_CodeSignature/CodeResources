@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/MSDKCloudDeviceManager.h</key>
 		<data>
-		qkdmvxizEWtXnR9nwXZhJxA6Yrk=
+		TI3lMHTPBGHrw2NVKH1LxihL5CU=
 		</data>
 		<key>Headers/MSDKCloudEventModel.h</key>
 		<data>
-		WrZqImLM5aoW4jrsBTzUKhwdr8g=
+		KNmyEqbhxXZ7CMa5vOtH9ymxVD4=
 		</data>
 		<key>Headers/MSDKDeviceCommandModel.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		69cV7wu2Cu9btE21S8smhqdnHQs=
+		/Wsbh8eTwpLvYfcagL73Ddnp+bI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -154,7 +154,7 @@
 		</data>
 		<key>QCloudCOSXML.bundle/Info.plist</key>
 		<data>
-		xaOrUHpUH8nRlmOLrD/GZyQq994=
+		si8jWg15AsqIyhUbEAggoZX+MCY=
 		</data>
 		<key>QCloudCOSXML.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -167,22 +167,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qkdmvxizEWtXnR9nwXZhJxA6Yrk=
+			TI3lMHTPBGHrw2NVKH1LxihL5CU=
 			</data>
 			<key>hash2</key>
 			<data>
-			eclP5fs/gO5zxHgy3qKc/6mdrsBTEtqSqqMcZuF1tLw=
+			pjw4tjBl+/GLLYB4uE1ODbHBpbgXxnNeS05YACjUnls=
 			</data>
 		</dict>
 		<key>Headers/MSDKCloudEventModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WrZqImLM5aoW4jrsBTzUKhwdr8g=
+			KNmyEqbhxXZ7CMa5vOtH9ymxVD4=
 			</data>
 			<key>hash2</key>
 			<data>
-			AZt/z1e5PMcpws3ZOnQhakeijPHF4FBtTqPFYiYr6zM=
+			EN9ShH0I7knkbmsxQ1zbGsfZdLOtDmxi9NOBNLYQCsU=
 			</data>
 		</dict>
 		<key>Headers/MSDKDeviceCommandModel.h</key>
@@ -563,11 +563,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xaOrUHpUH8nRlmOLrD/GZyQq994=
+			si8jWg15AsqIyhUbEAggoZX+MCY=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Pu+BuSuistiDyFUNBtR5UfRtiLhUeoYR1jEb8hOmK8=
+			NDeOlSIEUJpex9ZPNpymi1pGppHWUR24IpIN22gf2tc=
 			</data>
 		</dict>
 		<key>QCloudCOSXML.bundle/PrivacyInfo.xcprivacy</key>

@@ -84,7 +84,7 @@ NS_ASSUME_NONNULL_BEGIN
 ///   - model: 云事件&云录像model
 ///   - errorCallBack:返回错误
 ///   - 注:云事件由于没有结束时间，一般建议云事件可控制在事件时间+20s作为结束时间来使用（一个云文件大小为5s左右，可按需控制结束时间长度）
-- (void)startCloudPlayWithTimeInterval:(NSInteger)startHmsInterval endTime:(NSInteger)endHmsInterval model:(MSDKCloudEventModel *)model;
+- (void)startCloudPlayWithTimeInterval:(NSInteger)startHmsInterval endTime:(NSInteger)endHmsInterval model:(MSDKCloudEventModel *)model errorCallBack:(void(^)(MSDKCloudManagerErrorType error))errorCallBack;
 
 //  注：次方法成对使用，即使用完pausePlay后，一定要调用continuePlay再继续其他操作。
 /// 暂停播放  （注意此方法要和继续播放方法成对调用）
