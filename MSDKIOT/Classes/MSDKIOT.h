@@ -60,13 +60,20 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param failure 失败
 - (void)getDeviceInfo:(NSString *)deviceId token:(NSString *)token success:(void(^)(NSMutableDictionary *result))success failure:(void(^)(id error))failure;
 
-
 /// 获取设备卡流量
 /// @param iccid : 设备上网卡id
 /// @param token : 登录token
 /// @param success : 成功回调，返回剩余流量(remaining, 单位KB)、总流量(total, 单位KB)、套餐信息(packageType)及流量到期时间(expire).
 /// @param failure ：失败回调
 - (void)getcCardDataRemaining:(NSString *)iccid token:(NSString *)token success:(void(^)(NSInteger remain, NSInteger total,NSInteger packageType,NSInteger expire))success failure:(void(^)(id error))failure;
+
+/// 调用流量充值
+/// 获取设备卡流量
+/// @param serialInfo   序列号
+/// @param token : 登录token
+/// @param network :  测试环境
+- (void)openDataRechargeWithSerialInfo:(NSString *)serialInfo token:(NSString *)token network:(MSDKIOTNETWORK)network;
+
 
 @end
 
