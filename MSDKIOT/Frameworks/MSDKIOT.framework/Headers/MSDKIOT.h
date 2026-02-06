@@ -7,12 +7,19 @@
 
 #import <Foundation/Foundation.h>
 
+
 typedef NS_ENUM(NSInteger, MSDKIOTNETWORK) {
     MSDKIOTNETWORK_TEST,            // 测试环境
     MSDKIOTNETWORK_PRODUCT          // 生产环境
 };
 
-NS_ASSUME_NONNULL_BEGIN
+
+typedef NS_ENUM(NSInteger, MSDKDATASTATUS) {
+    MSDK_DATA_STATUS_OK,            // 流量正常
+    MSDK_DATA_STATUS_EXHAUSTED,     // 流量不足
+    MSDK_DATA_STATUS_EXPIRED        // 套餐到期
+};
+
 
 @interface MSDKIOT : NSObject
 
@@ -67,14 +74,17 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param failure ：失败回调
 - (void)getcCardDataRemaining:(NSString *)iccid token:(NSString *)token success:(void(^)(NSInteger remain, NSInteger total,NSInteger packageType,NSInteger expire))success failure:(void(^)(id error))failure;
 
-/// 调用流量充值
-/// 获取设备卡流量
+/// 获取流量充值接口
 /// @param serialInfo   序列号
 /// @param token : 登录token
-/// @param network :  测试环境
-- (void)openDataRechargeWithSerialInfo:(NSString *)serialInfo token:(NSString *)token network:(MSDKIOTNETWORK)network;
+/// @param success : 成功回调，返回流量充值链接
+/// @param failure ：失败回调
+
+- (void)getDataRechargeWithSerialInfo:(NSString *)serialInfo token:(NSString *)token success:(void(^)(NSString *dataRechargeh5Url))success failure:(void(^)(id error))failure;
+
+/// 调用流量充值
+/// @param dataRechargeh5Url   流量充值链接
+- (void)openDataRecharge:(NSString *)dataRechargeh5Url;
 
 
 @end
-
-NS_ASSUME_NONNULL_END

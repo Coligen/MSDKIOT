@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MSDKIOT'
-  s.version          = '0.4.2'
+  s.version          = '0.4.3'
   s.summary          = 'A short description of MSDKIOT.'
   
   s.description      = 'Coligen IOT SDK.'
@@ -26,5 +26,6 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64' }
 
   s.dependency 'TGBaseIOT'
+
   
 end

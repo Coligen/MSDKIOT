@@ -6,8 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MSDKCloudEventModel.h"
 #import <UIKit/UIKit.h>
+#import "MSDKCloudEventModel.h"
+
 
 @class MSDKCloudDeviceManagerDelegate;
 

@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/MSDKCloudDeviceManager.h</key>
 		<data>
-		TI3lMHTPBGHrw2NVKH1LxihL5CU=
+		+7sxObo2wM6ujwtZqXXyH4ErDKk=
 		</data>
 		<key>Headers/MSDKCloudEventModel.h</key>
 		<data>
-		KNmyEqbhxXZ7CMa5vOtH9ymxVD4=
+		d9lAigD/RPTN1jQPHY3CdsO4UA4=
 		</data>
 		<key>Headers/MSDKDeviceCommandModel.h</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>Headers/MSDKIOT.h</key>
 		<data>
-		Rz8O0iK4vU4rrNurmEpIz+IM9YA=
+		jWy8fDzxaHvioukBK52QjE7EOTU=
 		</data>
 		<key>Headers/MSDKIOTDevice.h</key>
 		<data>
-		epARMmzvBigS+kV35Bnp5lbn+rI=
+		gDxW5yhr5ZqLb8cKKte8v1PvSqU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/Wsbh8eTwpLvYfcagL73Ddnp+bI=
+		GxDmCZf8K8XKrFi78muCf5BCJTU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -154,7 +154,7 @@
 		</data>
 		<key>QCloudCOSXML.bundle/Info.plist</key>
 		<data>
-		si8jWg15AsqIyhUbEAggoZX+MCY=
+		zEh5SdB67S777IF7fVUPRlaeQzY=
 		</data>
 		<key>QCloudCOSXML.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -167,22 +167,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TI3lMHTPBGHrw2NVKH1LxihL5CU=
+			+7sxObo2wM6ujwtZqXXyH4ErDKk=
 			</data>
 			<key>hash2</key>
 			<data>
-			pjw4tjBl+/GLLYB4uE1ODbHBpbgXxnNeS05YACjUnls=
+			n/vGbXDbqj3+SxitbRHfoGaefdGXfA6LIsoBWaIVa/E=
 			</data>
 		</dict>
 		<key>Headers/MSDKCloudEventModel.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KNmyEqbhxXZ7CMa5vOtH9ymxVD4=
+			d9lAigD/RPTN1jQPHY3CdsO4UA4=
 			</data>
 			<key>hash2</key>
 			<data>
-			EN9ShH0I7knkbmsxQ1zbGsfZdLOtDmxi9NOBNLYQCsU=
+			thHU2YkLyVIE4mc7cWlyzqVvwZmXm46v8yJFHk7PUko=
 			</data>
 		</dict>
 		<key>Headers/MSDKDeviceCommandModel.h</key>
@@ -200,22 +200,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Rz8O0iK4vU4rrNurmEpIz+IM9YA=
+			jWy8fDzxaHvioukBK52QjE7EOTU=
 			</data>
 			<key>hash2</key>
 			<data>
-			aYTMB8XLmdrKo7LjnbhERFcqoQV3O0ozsd+x++4QuYc=
+			i9SytD0bropd6sLeCr42wCmSxV9LbkSMdHUBn7fpYqA=
 			</data>
 		</dict>
 		<key>Headers/MSDKIOTDevice.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			epARMmzvBigS+kV35Bnp5lbn+rI=
+			gDxW5yhr5ZqLb8cKKte8v1PvSqU=
 			</data>
 			<key>hash2</key>
 			<data>
-			jJ0ItNWRJxF3qcDUaPGYYLbNOgRWKG2vHDuGFNWWNBc=
+			SGxnFVyX40zKmVVF0LTdfVkVsdfOtaueU6Z700aOv94=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -563,11 +563,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			si8jWg15AsqIyhUbEAggoZX+MCY=
+			zEh5SdB67S777IF7fVUPRlaeQzY=
 			</data>
 			<key>hash2</key>
 			<data>
-			NDeOlSIEUJpex9ZPNpymi1pGppHWUR24IpIN22gf2tc=
+			xgEX1M+g19OmOHW1OXPttXxnJkawgG0qtCMd/5HXDRE=
 			</data>
 		</dict>
 		<key>QCloudCOSXML.bundle/PrivacyInfo.xcprivacy</key>

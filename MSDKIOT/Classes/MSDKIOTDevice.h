@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "MSDKDeviceCommandModel.h"
 
+
 @class MSDKIOTDevice;
 
 NS_ASSUME_NONNULL_BEGIN
@@ -19,15 +20,16 @@ typedef NS_ENUM(NSInteger, MSDKIOTDeviceConnectSessionStatus) {
     MSDKIOTDeviceConnectSessionStatus_ConnectFailed,                           //连接失败
     MSDKIOTDeviceConnectSessionStatus_Connected,                               //连接成功
     MSDKIOTDeviceConnectSessionStatus_ConnectClosed,                           //session已被关闭
+    MSDKIOTDeviceConnectSessionStatus_ConnectSuspended                         //连接中断(流量不足或套餐到期)
 };
 
 typedef NS_ENUM(NSInteger, MSDKIOTDeviceCardStatus) {
     MSDKIOTDeviceCardStatus_Remove = 0,                 // 无卡
-    MSDKIOTDeviceCardStatus_Error,                     // 卡错误
-    MSDKIOTDeviceCardStatus_Unkonw,                       // 卡未知格式
+    MSDKIOTDeviceCardStatus_Error,                      // 卡错误
+    MSDKIOTDeviceCardStatus_Unkonw,                     // 卡未知格式
     MSDKIOTDeviceCardStatus_Unsupported,                // 卡不支持格式
-    MSDKIOTDeviceCardStatus_Uninit,                 // 卡未初始化
-    MSDKIOTDeviceCardStatus_Ok,                        // 卡正常
+    MSDKIOTDeviceCardStatus_Uninit,                     // 卡未初始化
+    MSDKIOTDeviceCardStatus_Ok,                         // 卡正常
 };
 
 typedef enum  FILELISTTYPE

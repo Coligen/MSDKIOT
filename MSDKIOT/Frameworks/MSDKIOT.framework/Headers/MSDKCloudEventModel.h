@@ -18,7 +18,8 @@ typedef NS_ENUM(NSInteger, MSDKCloudManagerErrorType) {
     MSDKCloudManagerErrorType_NoFile,
     MSDKCloudManagerErrorType_NetworkError,
     MSDKCloudManagerErrorType_NoPermitted,
-    MSDKCloudManagerErrorType_TooBig
+    MSDKCloudManagerErrorType_TooBig,
+    MSDKCloudManagerErrorType_OutOfData
 };
 
 NS_ASSUME_NONNULL_BEGIN
